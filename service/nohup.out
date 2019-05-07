@@ -1,0 +1,18 @@
+[30m host: http://127.0.0.1->0 [0m
+[30m host: http://127.0.0.1->1 [0m
+[30m host: http://127.0.0.1->2 [0m
+events.js:161
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8807
+    at Object.exports._errnoException (util.js:1028:11)
+    at exports._exceptionWithHostPort (util.js:1051:20)
+    at Server._listen2 (net.js:1261:14)
+    at listen (net.js:1297:10)
+    at Server.listen (net.js:1375:9)
+    at Object.<anonymous> (/home/nodejs/test/service/service.js:48:8)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
